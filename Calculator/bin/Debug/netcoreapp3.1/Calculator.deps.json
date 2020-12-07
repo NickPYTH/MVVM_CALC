@@ -1,0 +1,84 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Calculator/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.0.78",
+          "Newtonsoft.Json": "12.0.3",
+          "System.Data.SQLite.Core": "1.0.103"
+        },
+        "runtime": {
+          "Calculator.dll": {}
+        }
+      },
+      "Dapper/2.0.78": {
+        "dependencies": {
+          "System.Reflection.Emit.Lightweight": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.78.45418"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "System.Data.SQLite.Core/1.0.103": {
+        "runtime": {
+          "lib/net46/System.Data.SQLite.dll": {
+            "assemblyVersion": "1.0.103.0",
+            "fileVersion": "1.0.103.0"
+          }
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.7.0": {}
+    }
+  },
+  "libraries": {
+    "Calculator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dapper/2.0.78": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vLPwL2HZXp/DN17Eu7sg6GMEj02alq7jcy6atn5Gv8i96b9Hu1UoxlCrhInUPfSFLQQiD8O7pdWAE1fdUEO/1Q==",
+      "path": "dapper/2.0.78",
+      "hashPath": "dapper.2.0.78.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "System.Data.SQLite.Core/1.0.103": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m5IO4QvtNUQd7yAKVBzHrILEDF2lWo3V1U7Dc2WL7omntOiE/YD/E/SjtFO74vsC6tyTS/wFy62tSFA1Wa+uhA==",
+      "path": "system.data.sqlite.core/1.0.103",
+      "hashPath": "system.data.sqlite.core.1.0.103.nupkg.sha512"
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "hashPath": "system.reflection.emit.lightweight.4.7.0.nupkg.sha512"
+    }
+  }
+}
