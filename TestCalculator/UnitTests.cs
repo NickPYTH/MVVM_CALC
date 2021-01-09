@@ -9,13 +9,6 @@ namespace TestCalculator
     public class UnitTests
     {
         [TestMethod]
-        public void TestMethod1()
-        {
-            ICalculate calc = new Calculate();
-            var res = calc.Parse(new Expression("10", calc));
-            Assert.AreEqual(res.HasError, true);
-        }
-        [TestMethod]
         public void TestMethod2()
         {
             ICalculate calc = new Calculate();
